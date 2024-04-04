@@ -1,0 +1,102 @@
+x-python-service:
+  &x-python-service
+  image: 'telegram-bot-python'
+  depends_on:
+    redis:
+      condition: service_healthy
+    mysql:
+      condition: service_healthy
+  env_file:
+    - .env
+  volumes:
+    - ./api:/app/api
+    - ./core:/app/core
+    - ./static:/app/static
+    - ./translations:/app/translations
+    - ./__init__.py/:/app/__init__.py
+    - /etc/letsencrypt:/etc/certbot:ro
+  networks:
+    - webapp
+
+
+services:
+  api:
+    <<: *x-python-service
+    ports:
+      - "8080:80"
+    command: ["uvicorn", "api:app", "--host", "0.0.0.0", "--port", "80", "--reload"]
+    networks:
+      - webapp
+
+  telegram-bot:
+    <<: *x-python-service
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "433:433"
+    command: ["python3", "__init__.py"]
+
+  next-app:
+    build:
+      context: ./webapp/next-app
+      dockerfile: dev.Dockerfile
+    # Set environment variables based on the .env file
+    env_file:
+      - .env
+    volumes:
+      - ./webapp/next-app/components:/app/components
+      - ./webapp/next-app/pages:/app/pages
+      - ./webapp/next-app/services:/app/services
+      - ./webapp/next-app/styles:/app/styles
+      - ./webapp/next-app/public:/app/public
+      - ./webapp/next-app/locales:/app/locales
+      - ./webapp/next-app/hooks:/app/hooks
+      - ./webapp/next-app/utils:/app/utils
+      - ./webapp/next-app/tailwind.config.js:/app/tailwind.config.js
+      - ./webapp/next-app/next.config.js:/app/next.config.js
+    restart: always
+    ports:
+      - 3000:3000
+    networks:
+      - webapp
+
+  mysql:
+    image: "mysql:8.3.0"
+    ports:
+      - "3306:3306"
+    env_file:
+      - .env
+    volumes:
+      - volume-data:/var/lib/mysql
+    healthcheck:
+      test: [ "CMD-SHELL", "mysqladmin ping -hlocalhost -uroot -p${MYSQL_ROOT_PASSWORD}" ]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+    networks:
+      - webapp
+
+  redis:
+    image: "redis:7.2.4-alpine"
+    ports:
+      - "6379:6379"
+    volumes:
+      - volume-queue:/data
+    healthcheck:
+      test: [ "CMD", "redis-cli", "ping" ]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+    networks:
+      - webapp
+
+
+networks:
+  webapp:
+
+
+volumes:
+  volume-data:
+  volume-queue:
+

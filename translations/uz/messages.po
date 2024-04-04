@@ -1,0 +1,126 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "buttons.play"
+msgstr "🎢 O'yin o'ynang"
+
+msgid "buttons.profile"
+msgstr "👺 Profil"
+
+msgid "buttons.rating"
+msgstr "🏆 Reyting"
+
+msgid "buttons.withdraw"
+msgstr "🛒 Olish"
+
+msgid "buttons.back"
+msgstr "🚪 Orqaga"
+
+msgid "buttons.main"
+msgstr "🚪 Asosiy menyuga"
+
+msgid "buttons.exit"
+msgstr "🚪 Chiqish"
+
+msgid "buttons.play_again"
+msgstr "🎢 Qayta o'ynang"
+
+msgid "buttons.choice_take"
+msgstr "🥷 Olish"
+
+msgid "buttons.choice_split"
+msgstr "🤝 Bo'lish"
+
+msgid "buttons.choice_skip"
+msgstr "💤 Uxlash"
+
+msgid "buttons.rating_balance"
+msgstr "🪙 Balans"
+
+msgid "buttons.rating_prizes"
+msgstr "🪙 Muktazilari"
+
+msgid "buttons.rating_games"
+msgstr "🎲 O'yinlar"
+
+msgid "buttons.rating_wins"
+msgstr "🥇 G'alabalar"
+
+msgid "messages.access_error"
+msgstr "Siz bu botdan foydalanolmaysiz, chunki sizda Telegram Premium obuna yo'q. @premiumbot"
+
+msgid "messages.unhandled_error"
+msgstr "Ooops. Qaytadan boshlash uchun /start buyrug'ini kiriting."
+
+msgid "messages.balance"
+msgstr "Sizning balansingiz: {balance_formatted} ball"
+
+msgid "messages.welcome_text"
+msgstr "✨ O'yiniga xush kelibsiz.\n\nUning orqali 10,000,000 Notcoin ga qanday hissa olishni xohlaysizmi? Boshqa o'yinchilar ham shunday. \n\nSiz monetlarni olishasizmi?\nYo'qmi?\nTo'g'ri, ko'ramiz.\n\nQoidalar oddiy: Notcoin ga chiqarish uchun zarur bo'lgan ballarni to'plashingiz kerak. Har bir raundda sizga to'liq summani olish yoki uning yarimiga bo'lish imkoniyati beriladi. Agar siz ikkala tomon ham olishni tanlarsangiz, hech kim hech narsa olmaydi. Agar biror kishi olishni tanlagan bo'lsa, boshqa nimadir o'lmaydi. Agar ikkala tomon ham bo'lishni tanlasa, ular o'rtasida teng bo'ladilar.\n\nSizni chidramoq uchun, tanlaganizni xotirlab oling, agar siz yo'qotishni tanlarsangiz, siz o'yiniga 0 ball bilan boshlarsiz ✨"
+
+msgid "messages.profile_text"
+msgstr "O'yin tugaganida, siz nima qoladi? Ehtimol, hech narsa. Siz nima bilasizmi? Batafsil."
+
+msgid "messages.user_prizes"
+msgstr "Olingan Notcoin lar:\n{prizes_formatted}\nNotcoin lar @notcoin_bot botdagi hisobingizga bu faoliyat tugagandan so'ng o'tkaziladi."
+
+msgid "messages.withdraw_text"
+msgstr "Har bir raundda siz ball yutib, yoki yo'qotishingiz mumkin. Hisobingizdagi mablag' to'liq summasiga yetganda, ularni Notcoin hisobingizga o'tkazishingiz mumkin. Profil bo'limida joriy balansingizni ko'rasiz."
+
+msgid "messages.current_round_rules"
+msgstr "Siz {target} ball to'plashingiz kerak, keyin siz Notcoin-da mukofot olishingiz mumkin, undan so'ng avtomatik ravishda @notcoin_bot-dagi hisobingizga kiritiladi.\n\nUmumiy mavjud mukofotlar: {available_prizes}/{max_prizes}\n\nSiz uchun mavjud mukofotlar: {claimed_prizes_user}/{max_prizes_per_user} ushbu raundda"
+
+msgid "messages.no_active_round"
+msgstr "Faol raund yo'q. Faqat zo'r bo'ling va trening qiling 💪"
+
+msgid "messages.game_in_progress"
+msgstr "Sizda hozir faol o'yin mavjud. Yangi o'yin boshlashdan oldin oldingi o'yinni tugating"
+
+msgid "messages.good_luck"
+msgstr "🚀 Omad!"
+
+msgid "messages.lobby_text"
+msgstr "O'yinchi topilganda O'yin tugaganidan keyin uzingizni tanlovingiz mumkin\n\n⚡ Uxlamang: O'yin boshlandi kuni, sizda faqat {max_round_time} soniyadan foydalanishingiz mumkin, qaror qabul qilish uchun."
+
+msgid "messages.choices_summary"
+msgstr "Siz {action} tanladingiz\nO'yinchi {rival_name} {opponent_action} tanladi"
+
+msgid "messages.loser_text"
+msgstr "😬 Siz {lose_amount} ball yo'qotdingiz. Qayta urinib ko'ringizmi?"
+
+msgid "messages.balance_flush_text"
+msgstr "Yiqilganini qayd etingiz - siz yana o'zringizni nolga qo'yib, yana o'ynayapsiz... 🩲 Yaxshi, bu faqat o'yin. Yoki emasmi? 😐"
+
+msgid "messages.balance_summary_full_text"
+msgstr "Joriy balansingiz - {balance} ball"
+
+msgid "messages.winner_text"
+msgstr "🥳 Siz {won_amount} ball olishingiz mumkin, tabriklaymiz!"
+
+msgid "messages.prize_winner_text"
+msgstr "🎉🎉🎉 Tabriklaymiz {full_name}!\n🎉🎉🎉Siz {amount} Notcoin topdingiz!\n\nUlar notcoin_bot dagi hisobingizga tegishli hisobga o'tkaziladi.\n\nBu orada davom etib, ko'proq ishlab topishingizni urinib ko'ring!"
+
+msgid "messages.time_to_decide"
+msgstr "...qaror qabul qilish vaqt"
+
+msgid "messages.waiting_other_move"
+msgstr "Siz qaroringizni tanlagansiz. Vaqt tugagandan yoki {rival_name} qarorini o'zgartirishga qandaydir qaror qilgandan oldin, siz uni o'zgartirishingiz mumkin."
+
+msgid "messages.player_history"
+msgstr "Oxirgi o'yinlaringizda tanlaganlaringiz:\n{last_games}"
+
+msgid "messages.rival_history"
+msgstr "{rival_name} o'zgartirilgan tanlov qaydnomasi:\n{last_opponent_games}"
+
+msgid "messages.waiting"
+msgstr "⌛️ Raqibni izlash.\n\nKutib turing, biz o'yinchini izlaymiz..."
+
+msgid "messages.player_found"
+msgstr "O'yinchi topildi. Hozir o'zingizni tanlovingiz mumkin."
+
+msgid "messages.rating_text"
+msgstr "🏆 Eng yaxshi o'yinchilar"
+
+#msgid "messages.history_record"
+#msgstr "{action_emoji} {action}"

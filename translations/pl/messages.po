@@ -1,0 +1,123 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "buttons.play"
+msgstr "🎢 Graj"
+
+msgid "buttons.profile"
+msgstr "👺 Profil"
+
+msgid "buttons.rating"
+msgstr "🏆 Ranking"
+
+msgid "buttons.withdraw"
+msgstr "🛒 Wypłać"
+
+msgid "buttons.back"
+msgstr "🚪 Wstecz"
+
+msgid "buttons.main"
+msgstr "🚪 Menu główne"
+
+msgid "buttons.exit"
+msgstr "🚪 Wyjście"
+
+msgid "buttons.play_again"
+msgstr "🎢 Graj ponownie"
+
+msgid "buttons.choice_take"
+msgstr "🥷 Weź"
+
+msgid "buttons.choice_split"
+msgstr "🤝 Podziel"
+
+msgid "buttons.choice_skip"
+msgstr "💤 Pomiń"
+
+msgid "buttons.rating_balance"
+msgstr "🪙 Saldo"
+
+msgid "buttons.rating_prizes"
+msgstr "🪙 Nagrody"
+
+msgid "buttons.rating_games"
+msgstr "🎲 Gry"
+
+msgid "buttons.rating_wins"
+msgstr "🥇 Wygrane"
+
+msgid "messages.access_error"
+msgstr "Nie możesz używać tego bota, ponieważ nie masz subskrypcji Telegram Premium. @premiumbot"
+
+msgid "messages.unhandled_error"
+msgstr "Ups. Spróbuj ponownie uruchomić mnie komendą /start."
+
+msgid "messages.balance"
+msgstr "Twój stan konta: {balance_formatted} punktów"
+
+msgid "messages.welcome_text"
+msgstr "✨ Witaj w grze.\n\nChcesz wygrać do 10 000 000 Notcoin? A inni gracze także.\n\nCzy zdobędziesz monety?\nCzy nic?\nZobaczmy.\n\nZasady są proste: musisz zdobyć wymaganą liczbę punktów, aby wypłacić je w Notcoin. W każdej rundzie masz możliwość wzięcia całej kwoty lub podzielenia jej na pół z przeciwnikiem. Jeśli obaj wybierzecie wzięcie, nikt nic nie dostanie. Jeśli ktoś wybierze wzięcie, a drugi podzielenie, to pierwszy otrzyma całość. Jeśli obaj wybierzecie podzielenie, oboje otrzymacie po równo.\n\nAby cię trochę zmotywować, pamiętaj, że gdy przegrywasz, zaczynasz grę od 0 punktów ✨"
+
+msgid "messages.profile_text"
+msgstr "Co zyskasz na końcu? Prawdopodobnie nic. Czy dowiesz się czegoś? Zdecydowanie."
+
+msgid "messages.user_prizes"
+msgstr "Otrzymane Notcoin:\n{prizes_formatted}\nNotcoin zostaną przypisane do twojego konta w bocie @notcoin_bot po zakończeniu tej aktywności."
+
+msgid "messages.withdraw_text"
+msgstr "W każdej rundzie możesz zarobić lub stracić punkty. Gdy na twoim koncie uzbiera się wymagana suma, będziesz mógł wypłacić je na swoje konto Notcoin. W zakładce profil możesz sprawdzić swoje obecne saldo."
+
+msgid "messages.current_round_rules"
+msgstr "Musisz zdobyć {target} punktów, wtedy otrzymasz nagrodę w Notcoin, która zostanie automatycznie przypisana do Twojego salda w @notcoin_bot.\n\nŁączna liczba dostępnych nagród w tej rundzie dla wszystkich graczy: {available_prizes}/{max_prizes}\n\nNagrody, które otrzymałeś w tej rundzie spośród możliwych: {claimed_prizes_user}/{max_prizes_per_user}"
+
+msgid "messages.no_active_round"
+msgstr "Brak aktywnej rundy. Po prostu baw się i trenuj 💪"
+
+msgid "messages.game_in_progress"
+msgstr "Masz już aktywną grę. Zakończ poprzednią grę, zanim zaczniesz nową"
+
+msgid "messages.good_luck"
+msgstr "🚀 Powodzenia!"
+
+msgid "messages.lobby_text"
+msgstr "Naciśnij Graj, aby rozpocząć wyszukiwanie przeciwnika\n\n⚡ Nie śpij: po rozpoczęciu gry masz tylko {max_round_time} sekund, aby podjąć decyzję."
+
+msgid "messages.choices_summary"
+msgstr "Wybrałeś {action}\nGracz {rival_name} wybrał: {opponent_action}"
+
+msgid "messages.loser_text"
+msgstr "😬 Straciłeś {lose_amount} punktów. Spróbujemy jeszcze raz?"
+
+msgid "messages.balance_flush_text"
+msgstr "I, o zgrozo - zaczynasz tę grę od nowa... 🩲 Dobrze, że to tylko gra. A może nie? 😐"
+
+msgid "messages.balance_summary_full_text"
+msgstr "Twój obecny stan konta - {balance} punktów"
+
+msgid "messages.winner_text"
+msgstr "🥳 Otrzymałeś {won_amount} punktów, gratulacje!"
+
+msgid "messages.prize_winner_text"
+msgstr "🎉🎉🎉 Gratulacje {full_name}!\n🎉🎉🎉Zdobyłeś {amount} Notcoin!\n\nZostaną one przypisane do twojego konta w @notcoin_bot przed wydaniem tokena.\n\nTymczasem graj dalej i postaraj się zdobyć więcej!"
+
+msgid "messages.time_to_decide"
+msgstr "...czas na decyzję"
+
+msgid "messages.waiting_other_move"
+msgstr "Podjąłeś swoją decyzję. Nadal możesz ją zmienić, dopóki nie minie czas lub dopóki {rival_name} nie podjął swojego ruchu."
+
+msgid "messages.player_history"
+msgstr "Twój wybór w ostatnich grach:\n{last_games}"
+
+msgid "messages.rival_history"
+msgstr "Ostatni wybór gracza {rival_name}:\n{last_opponent_games}"
+
+msgid "messages.waiting"
+msgstr "⌛️ Wyszukiwanie przeciwnika.\n\nPoczekaj, aż znajdziemy gracza..."
+
+msgid "messages.player_found"
+msgstr "Znaleziono gracza. Teraz dokonaj swojego wyboru."
+
+msgid "messages.rating_text"
+msgstr "🏆 Top graczy"
